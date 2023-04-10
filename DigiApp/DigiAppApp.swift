@@ -11,7 +11,7 @@ import SwiftUI
 struct DigiAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView(username: "", password: "", showPassword: false)
         }
     }
 }
